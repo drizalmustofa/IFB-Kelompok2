@@ -28,6 +28,7 @@
             <activity android:name="pertanyaan"></activity>
             <activity android:name="pertanyaan1"></activity>
             <activity android:name="pertanyaan2"></activity>
+            <activity android:name="hasil"></activity>
     </application>
 
 </manifest>

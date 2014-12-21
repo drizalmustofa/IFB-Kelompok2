@@ -22,28 +22,44 @@ public final class R {
     }
     public static final class drawable {
         public static final int aa=0x7f020000;
-        public static final int ic_launcher=0x7f020001;
+        public static final int accurate=0x7f020001;
+        public static final int afraid=0x7f020002;
+        public static final int amazing=0x7f020003;
+        public static final int angry=0x7f020004;
+        public static final int bb=0x7f020005;
+        public static final int gelas=0x7f020006;
+        public static final int ic_launcher=0x7f020007;
+        public static final int kursi=0x7f020008;
+        public static final int meja=0x7f020009;
+        public static final int papantulis=0x7f02000a;
+        public static final int sapu=0x7f02000b;
+        public static final int sedih=0x7f02000c;
+        public static final int senang=0x7f02000d;
+        public static final int terkejut=0x7f02000e;
+        public static final int tidakberwujud=0x7f02000f;
     }
     public static final class id {
-        public static final int action_settings=0x7f080012;
-        public static final int ba=0x7f080009;
+        public static final int GambarSoal=0x7f080008;
+        public static final int Selamat=0x7f080006;
+        public static final int action_settings=0x7f080014;
+        public static final int back=0x7f080007;
         public static final int button1=0x7f080000;
         public static final int button2=0x7f080001;
         public static final int button3=0x7f080003;
-        public static final int editText1=0x7f08000a;
+        public static final int hasil01=0x7f080005;
         public static final int jawab=0x7f08000b;
-        public static final int mHasil=0x7f080007;
-        public static final int opsi=0x7f08000c;
-        public static final int opsi1=0x7f08000d;
-        public static final int opsi2=0x7f08000e;
-        public static final int opsi3=0x7f08000f;
-        public static final int opsi4=0x7f080010;
+        public static final int jawabannya=0x7f08000a;
+        public static final int next=0x7f08000c;
+        public static final int opsi=0x7f08000e;
+        public static final int opsi1=0x7f08000f;
+        public static final int opsi2=0x7f080010;
+        public static final int opsi3=0x7f080011;
+        public static final int opsi4=0x7f080012;
+        public static final int salahbenar=0x7f08000d;
         public static final int scrollView1=0x7f080004;
-        public static final int soal=0x7f080011;
-        public static final int text=0x7f080008;
-        public static final int text1=0x7f080006;
+        public static final int soal=0x7f080013;
         public static final int textView1=0x7f080002;
-        public static final int txt=0x7f080005;
+        public static final int tv=0x7f080009;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;

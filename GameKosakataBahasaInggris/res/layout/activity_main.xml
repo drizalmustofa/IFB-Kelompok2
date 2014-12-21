@@ -6,7 +6,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@drawable/aa"
+    android:background="@drawable/bb"
     tools:context=".MainActivity" >
 
      <Button
@@ -16,6 +16,7 @@
          android:layout_above="@+id/button2"
          android:layout_alignLeft="@+id/textView1"
          android:layout_marginBottom="20dp"
+         android:textSize="25dp"
          android:text="Main" />
      
      <Button
@@ -25,6 +26,7 @@
         android:layout_above="@+id/button3"
         android:layout_alignLeft="@+id/button1"
         android:layout_marginBottom="22dp"
+        android:textSize="25dp"
         android:text="Bantuan" />
      
     <Button
@@ -34,6 +36,7 @@
         android:layout_alignLeft="@+id/button2"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="24dp"
+        android:textSize="25dp"
         android:text="Tentang" />
 
     
