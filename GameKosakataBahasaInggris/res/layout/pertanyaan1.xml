@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="5dp"
+        android:layout_y="9dp"
+        android:text="pertanyaan" />
+
+	<RadioGroup
+	    android:id="@+id/opsi"
+	    android:layout_width="180dp"
+	    android:layout_height="wrap_content"
+	    android:layout_x="68dp"
+	    android:layout_y="205dp"
+	    android:clickable="true" >
+
+	    <RadioButton
+	        android:id="@+id/opsi1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:checked="false"
+	        android:text="@string/opsi_soal1_1" />
+
+	    <RadioButton
+	        android:id="@+id/opsi2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/opsi_soal1_2" />
+
+	    <RadioButton
+	        android:id="@+id/opsi3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/opsi_soal1_3" />
+
+	    <RadioButton
+	        android:id="@+id/opsi4"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/opsi_soal1_4" />
+	</RadioGroup>
+
+	<TextView
+	    android:id="@+id/soal"
+	    android:layout_width="286dp"
+	    android:layout_height="wrap_content"
+	    android:layout_x="19dp"
+	    android:layout_y="118dp"
+	    android:text="@string/soal_soal1" />
+
+	<Button
+	    android:id="@+id/jawab"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_x="0dp"
+	    android:layout_y="357dp"
+	    android:gravity="center_vertical|center_horizontal"
+	    android:text="jawab"
+	    android:textSize="15sp" />
+
+</AbsoluteLayout>

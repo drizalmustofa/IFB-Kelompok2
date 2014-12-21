@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="263dp"
+        android:layout_height="wrap_content"
+        android:layout_x="33dp"
+        android:layout_y="140dp"
+        android:text="Kosakata Bahasa Inggris ini merupakan versi 1.0 yang di buat oleh dua sejoli mahasiswa dari UIN SGD BANDUNG"
+        android:textSize="20sp" />
+
+</AbsoluteLayout>

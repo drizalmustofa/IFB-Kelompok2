@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Game Kosakata Bahasa Inggris</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- judul soal -->
+<string name="soal2">Game Kosakata Bahasa Inggris - Soal II</string>
+<string name="soal3">Game Kosakata Bahasa Inggris - Soal III</string>
+<string name="soal4">Game Kosakata Bahasa Inggris - Soal IV</string>
+<string name="soal5">Game Kosakata Bahasa Inggris V</string>
+
+<!-- soal 1 -->
+	<string name="soal_soal1">Kursi dalam bahas inggris...</string>
+	<string name="opsi_soal1_1">chair</string>
+	<string name="opsi_soal1_2">cair</string>
+	<string name="opsi_soal1_3">hair</string>
+	<string name="opsi_soal1_4">coir</string>
+
+<!-- soal 2 -->
+	<string name="soal_soal2">senang...</string>
+	<string name="opsi_soal2_1">heppy</string>
+	<string name="opsi_soal2_2">happi</string>
+	<string name="opsi_soal2_3">happy</string>
+	<string name="opsi_soal2_4">heypi</string>
+    
+</resources>
