@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+<ScrollView
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="174dp"
+    android:layout_gravity="bottom" >
+        
+    <LinearLayout
+        	android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dalam Permainan Kosakata Bahasa Inggris ini Terdapat 2 kategori yaitu Kata Benda dan Kata Sifat. Didalamnya terdapat klu atau bantuan yang harus anda jawab"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+</ScrollView>
+</AbsoluteLayout>

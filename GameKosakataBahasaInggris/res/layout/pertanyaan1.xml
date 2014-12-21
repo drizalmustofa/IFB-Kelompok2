@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+     <TextView
+         android:id="@+id/salahbenar"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="350dp"
+         android:textSize="30px" />
+
+    <ImageView 
+        android:id="@+id/GambarSoal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/terkejut">
+        </ImageView>
+        <EditText 
+         android:text=""
+         android:id="@+id/jawabannya"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:textStyle="bold" 
+         android:layout_below="@+id/GambarSoal"
+         android:layout_marginTop="20px">
+         </EditText>
+         <Button 
+             android:text="JAWAB"
+             android:id="@+id/jawab"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:textSize="20dp"
+             android:layout_below="@+id/jawabannya">
+             </Button>
+             <Button 
+                 android:text="NEXT"
+                 android:id="@+id/next"
+                 android:layout_width="fill_parent"
+             	 android:layout_height="wrap_content"
+             	 android:textSize="20dp"
+             	 android:layout_below="@+id/jawab">
+             	 </Button>
+</RelativeLayout>
+
+    
